@@ -1,0 +1,68 @@
+.preview-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+  }
+  
+  .image-box {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+  }
+  
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  /* Timestamp under "Payment Successful" */
+  .timestamp {
+    position: absolute;
+    top: 17%;
+    width: 100%;
+    text-align: center;
+    color: #e6f2e6;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  /* Name */
+  .name {
+    position: absolute;
+    top: 24%;
+    left: 29%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Phone number */
+  .phone {
+    position: absolute;
+    top: 26.5%;
+    left: 28%;
+    color: #cfcfcf;
+    font-size: 14px;
+  }
+  
+  /* Amount */
+  .amount {
+    position: absolute;
+    top: 28.5%;
+    left: 28%;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Tablet adjustments */
+  @media (min-width: 768px) {
+    .timestamp {
+      font-size: 14px;
+    }
+    .amount {
+      font-size: 24px;
+    }
+  }
+  
